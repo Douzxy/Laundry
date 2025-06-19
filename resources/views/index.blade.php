@@ -33,4 +33,6 @@
 
     <!-- Tombol atau widget WhatsApp untuk kontak -->
     <x-whatsapp></x-whatsapp>
+
+    <x-test></x-test>
 </x-layout>

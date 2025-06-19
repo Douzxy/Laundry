@@ -11,8 +11,8 @@ gsap.registerPlugin(TextPlugin);
 
 // Animasi pertama untuk teks "Tapi"
 gsap.to("#gsap-first", {
-    delay: 1.5, // Delay awal animasi pertama
-    duration: 2, // Durasi animasi pertama
+    delay: 0.5, // Delay awal animasi pertama
+    duration: 0.5, // Durasi animasi pertama
     opacity: 1, // Membuat teks terlihat
     x: 0, // Posisi X akan kembali ke posisi normal
     ease: "power4.out", // Jenis easing untuk animasi halus
@@ -29,7 +29,7 @@ gsap.to("#gsap-first", {
         // Callback setelah animasi pertama selesai
         // Animasi kedua - Teks "Gak Ada Waktu" dengan class tambahan
         gsap.to("#gsap-second", {
-            duration: 3, // Durasi animasi kedua
+            duration: 1, // Durasi animasi kedua
             text: {
                 value: "Gak Ada Waktu", // Teks kedua yang ingin ditampilkan
                 delimiter: "",
@@ -38,7 +38,7 @@ gsap.to("#gsap-first", {
             onComplete: () => {
                 // Animasi ketiga - Teks "Buat Nyuci?"
                 gsap.to("#gsap-third", {
-                    duration: 2, // Durasi animasi ketiga
+                    duration: 0.5, // Durasi animasi ketiga
                     text: {
                         value: "Buat Nyuci?", // Teks ketiga yang ingin ditampilkan
                         delimiter: "",

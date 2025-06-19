@@ -26,7 +26,7 @@
             </div>
             <!-- Tombol login -->
             <div class="space-x-3 flex">
-                <x-button class="login-btn font-semibold text-base transition duration-700 md:mt-2 bg-inherit">
+                <x-button class="login-btn font-semibold text-base transition duration-700 md:mt-2 bg-inherit hidden">
                     Login
                 </x-button>
             </div>

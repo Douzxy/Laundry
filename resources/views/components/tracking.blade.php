@@ -11,7 +11,7 @@
             status cucian Anda sekarang juga!</p>
 
         <!-- Tombol Aksi -->
-        <a href="/cek-status">
+        <a href="http://localhost/laundryapp/tracking.php">
             <x-button
                 class="px-8 py-4 text-lg bg-gradient-to-r from-cyan-500 to-cyan-600 border border-cyan-500 text-white max-w-fit">Cek
                 Sekarang</x-button>
