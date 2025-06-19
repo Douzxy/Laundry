@@ -11,10 +11,10 @@
     <!-- Judul halaman yang muncul di tab browser -->
     <title>Freshlt Laundry</title>
 
-    <!-- Logika kondisional untuk memeriksa apakah file build ada, jika ada, memuat aset seperti CSS dan JS -->
-    @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @endif
+    <link rel="stylesheet" href="{{ asset('build/assets/app-BUNDfy5Z.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/app-DvB2Xm2x.css') }}">
+    <script src="{{ asset('build/assets/app-l5wfGl7B.js') }}" defer></script>
+
 
     <!-- Menautkan font Inter dari URL eksternal -->
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
@@ -23,7 +23,8 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <!-- Menambahkan font Poppins dari Google Fonts dengan berbagai bobot -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Menambahkan skrip stickybits untuk membuat elemen tetap menempel -->
     <script src="https://cdn.jsdelivr.net/npm/stickybits@3.7.5/dist/stickybits.min.js"></script>
